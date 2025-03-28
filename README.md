@@ -1,8 +1,6 @@
 
 # 📘 Hash Table-Based Dictionary with Quadratic and Double Hashing in C
 
-### 👤 Author: Mariam Turk  
-
 
 ## 🧠 Overview
 
