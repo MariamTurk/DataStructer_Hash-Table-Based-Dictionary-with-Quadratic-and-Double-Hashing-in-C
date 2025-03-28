@@ -2,11 +2,7 @@
 # 📘 Hash Table-Based Dictionary with Quadratic and Double Hashing in C
 
 ### 👤 Author: Mariam Turk  
-**Student ID:** 1211115  
-**Section:** 1  
-**Instructor:** Ahmad Abusnaina  
 
----
 
 ## 🧠 Overview
 
