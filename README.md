@@ -86,33 +86,21 @@ search_*	Searches by collision resolution strategy
 Delet_*	Deletes entries from tables
 🔬 Hashing Techniques Used
 1. Primary Hash Function (for all strategies)
-c
-Copy
-Edit
 hash = ((hash << 5) + character) % Table_Size;
 2. Quadratic Probing
-c
-Copy
-Edit
 index = (hash + i^2) % Table_Size;
 3. Double Hashing
-c
-Copy
-Edit
 index = (hash + i * (prime - (hash % prime))) % Table_Size;
+
 📊 Load Factor
 The load factor is calculated as:
 
 mathematica
-Copy
-Edit
 Load Factor = (Number of Elements) / (Table Size)
 This metric helps assess how full the table is and how likely collisions are to occur.
 
 💾 File Save Format (saved_words.txt)
-yaml
-Copy
-Edit
+
 Word: car
 Meaning 1: vehicle
 Meaning 2: machine
@@ -122,6 +110,8 @@ Word: book
 Meaning 1: pages
 Meaning 2: read
 Meaning 3: library
+
+
 ⚠️ Notes
 If a word already exists in either hash table, it will not be inserted again.
 
